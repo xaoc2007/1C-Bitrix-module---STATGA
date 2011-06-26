@@ -4,7 +4,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_aft
 ?>
 <script type="text/javascript" src="/bitrix/js/statga/swfobject.js"></script>
 <div id="visitors" align="center" style="padding-bottom:80px">
-	<strong>Р”Р»СЏ РїСЂРѕСЃРјРѕС‚СЂР° СЃРѕР¶РµСЂР¶РёРјРѕРіРѕ, СѓСЃС‚Р°РЅРѕРІРёС‚Рµ РїРѕСЃР»РµРґРЅСЋСЋ РІРµСЂСЃРёСЋ Adobe Flash Player</strong>
+	<strong>Для просмотра сожержимого, установите последнюю версию Adobe Flash Player</strong>
 </div>
 <script type="text/javascript">
 	// <![CDATA[
@@ -20,7 +20,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_aft
 
 
 	<div id="visitors_3" align="center" style="padding-bottom:80px">
-		<strong>Р”Р»СЏ РїСЂРѕСЃРјРѕС‚СЂР° СЃРѕР¶РµСЂР¶РёРјРѕРіРѕ, СѓСЃС‚Р°РЅРѕРІРёС‚Рµ РїРѕСЃР»РµРґРЅСЋСЋ РІРµСЂСЃРёСЋ Adobe Flash Player</strong>
+		<strong>Для просмотра сожержимого, установите последнюю версию Adobe Flash Player</strong>
 	</div>
 
 
@@ -38,7 +38,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_aft
 
 
 	<div id="country" align="center" style="padding-bottom:80px">
-		<strong>Р”Р»СЏ РїСЂРѕСЃРјРѕС‚СЂР° СЃРѕР¶РµСЂР¶РёРјРѕРіРѕ, СѓСЃС‚Р°РЅРѕРІРёС‚Рµ РїРѕСЃР»РµРґРЅСЋСЋ РІРµСЂСЃРёСЋ Adobe Flash Player</strong>
+		<strong>Для просмотра сожержимого, установите последнюю версию Adobe Flash Player</strong>
 	</div>
 
 <script type="text/javascript">
@@ -55,7 +55,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_aft
 
 
 	<div id="city" align="center" style="padding-bottom:80px">
-		<strong>Р”Р»СЏ РїСЂРѕСЃРјРѕС‚СЂР° СЃРѕР¶РµСЂР¶РёРјРѕРіРѕ, СѓСЃС‚Р°РЅРѕРІРёС‚Рµ РїРѕСЃР»РµРґРЅСЋСЋ РІРµСЂСЃРёСЋ Adobe Flash Player</strong>
+		<strong>Для просмотра сожержимого, установите последнюю версию Adobe Flash Player</strong>
 	</div>
 
 <script type="text/javascript">

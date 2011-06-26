@@ -1,17 +1,17 @@
 <?php
 /**
- * ÐœÐ¾Ð´ÑƒÐ»ÑŒ Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð° Ð¸ Ð¿Ð¾ÐºÐ°Ð·Ð° ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Google.Analytics Ð´Ð»Ñ Ð‘Ð¸Ñ‚Ñ€Ð¸ÐºÑÐ°
+ * Ìîäóëü èìïîðòà è ïîêàçà ñòàòèñòèêà Google.Analytics äëÿ Áèòðèêñà
  *
- * ÐœÐ¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½ ÐºÐ°Ðº Ð°Ð»ÑŒÑ‚ÐµÑ€Ð½Ð°Ñ‚Ð¸Ð²Ð° Ð¼Ð¾Ð´ÑƒÐ»Ñ Ð’ÐµÐ±-Ð°Ð½Ð°Ð»Ð¸Ñ‚Ð¸ÐºÐ° Ð¸Ð· ÑÑ‚Ð°Ñ€ÑˆÐ¸Ñ… Ñ€ÐµÐ´Ð°ÐºÑ†Ð¸Ð¹ Ð‘Ð¸Ñ‚Ñ€Ð¸ÐºÑÐ°.
+ * Ìîæåò áûòü èñïîëüçîâàí êàê àëüòåðíàòèâà ìîäóëÿ Âåá-àíàëèòèêà èç ñòàðøèõ ðåäàêöèé Áèòðèêñà.
  *
- * Ð—Ð° Ð¾ÑÐ½Ð¾Ð²Ñƒ Ð±Ñ‹Ð» Ð²Ð·ÑÑ‚ ÑÐºÑ€Ð¸Ð¿Ñ‚ Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð° Ð¸ Ð¿Ð¾ÐºÐ°Ð·Ð° ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ¸ Ð¸Ð· ÑÑ‚Ð°Ñ‚ÑŒÐ¸ http://habrahabr.ru/blogs/webdev/72335/,
- * Ð° Ð¸Ð¼ÐµÐ½Ð½Ð¾ http://code.google.com/p/statga/downloads/list
+ * Çà îñíîâó áûë âçÿò ñêðèïò èìïîðòà è ïîêàçà ñòàòèñòèêè èç ñòàòüè http://habrahabr.ru/blogs/webdev/72335/,
+ * à èìåííî http://code.google.com/p/statga/downloads/list
  *
- * ÐžÑÐ½Ð¾Ð²Ð½Ð¾Ð¹ ÐºÐ»Ð°ÑÑ Ð´Ð»Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ñ API: http://code.google.com/p/gapi-google-analytics-php-interface/
+ * Îñíîâíîé êëàññ äëÿ ðàáîòû ñ API: http://code.google.com/p/gapi-google-analytics-php-interface/
  *
- * Ð˜ÐºÐ¾Ð½ÐºÐ° Ð²Ð·ÑÑ‚Ð° Ð¾Ñ‚ÑÑŽÐ´Ð° http://www.iconspedia.com/icon/google-analytics--737.html
+ * Èêîíêà âçÿòà îòñþäà http://www.iconspedia.com/icon/google-analytics--737.html
  *
- * ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ Ð³Ñ€Ð°Ñ„Ð¸ÐºÐ¾Ð² Ð² Ð¿Ð°Ð¿ÐºÐµ /bitrix/xml/statga/
+ * Íàñòðîéêè îòîáðàæåíèÿ ãðàôèêîâ â ïàïêå /bitrix/xml/statga/
  *
  * Code license GNU GPL v3
  */

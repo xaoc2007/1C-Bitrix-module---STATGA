@@ -1,15 +1,15 @@
 <?php
-$MESS['STATGA_MODULE_NAME']        = 'РЎС‚Р°С‚РёСЃС‚РёРєР° Google.Analitics';
-$MESS['STATGA_MODULE_DESCRIPTION'] = 'РћС‚РѕР±СЂР°Р¶Р°РµС‚ РіСЂР°С„РёРєРё РїРѕСЃРµС‰РµРЅРёСЏ СЃР°Р№С‚Р°';
+$MESS['STATGA_MODULE_NAME']        = 'Статистика Google.Analitics';
+$MESS['STATGA_MODULE_DESCRIPTION'] = 'Отображает графики посещения сайта';
 
-$MESS['STATGA_OPTIONS_GENERAL_TAB']          = 'РќР°СЃС‚СЂРѕР№РєРё';
-$MESS['STATGA_OPTIONS_GENERAL_TAB_TITLE']    = 'РќР°СЃС‚СЂРѕР№РєРё РїРѕРґРєР»СЋС‡РµРЅРёСЏ';
-$MESS['STATGA_OPTIONS_AUTHENTICATION_SECTION']    = 'РџР°СЂР°РјРµС‚СЂС‹ РґРѕСЃС‚СѓРїР° Рє СЃС‡РµС‚С‡РёРєСѓ';
+$MESS['STATGA_OPTIONS_GENERAL_TAB']          = 'Настройки';
+$MESS['STATGA_OPTIONS_GENERAL_TAB_TITLE']    = 'Настройки подключения';
+$MESS['STATGA_OPTIONS_AUTHENTICATION_SECTION']    = 'Параметры доступа к счетчику';
 
-$MESS['STATGA_OPTIONS_USERNAME']    = 'РђРєРєР°СѓРЅС‚ GA(Р»РѕРіРёРЅ РёР»Рё email)';
-$MESS['STATGA_OPTIONS_PASSWORD']    = 'РџР°СЂРѕР»СЊ (РЅРµ РїРѕРєР°Р·С‹РІР°РµС‚СЃСЏ)';
-$MESS['STATGA_ANALYTICS_ID']    = 'РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‡РµС‚С‡РёРєР°(РёР· СѓСЂР»Р°)';
+$MESS['STATGA_OPTIONS_USERNAME']    = 'Аккаунт GA(логин или email)';
+$MESS['STATGA_OPTIONS_PASSWORD']    = 'Пароль (не показывается)';
+$MESS['STATGA_ANALYTICS_ID']    = 'Идентификатор счетчика(из урла)';
 
-$MESS['STATGA_ANALYTICS_ID_DESCR']    = 'РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЃС‡РµС‚С‡РёРєР° РјРѕР¶РЅРѕ СѓР·РЅР°С‚СЊ РёР· СѓСЂР»Р° РїСЂРё РїРµСЂРµС…РѕРґРµ РЅР° РіР»Р°РІРЅСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ СЃ РѕС‚С‡РµС‚Р°РјРё: <br/>https://www.google.com/analytics/reporting/?reset=1&id=xxxxxxx';
+$MESS['STATGA_ANALYTICS_ID_DESCR']    = 'Идентификатор счетчика можно узнать из урла при переходе на главную страницу с отчетами: <br/>https://www.google.com/analytics/reporting/?reset=1&id=xxxxxxx';
 
-$MESS['STATGA_DESCR']    = 'Р’РЅРёРјР°РЅРёРµ! Р§С‚РѕР±С‹ РёРјРїРѕСЂС‚ СЃС‚Р°С‚РёСЃС‚РёРєРё РЅРµ РІР»РёСЏР» РЅР° СЃРєРѕСЂРѕСЃС‚СЊ СЃР°Р№С‚Р°, РЅРµРѕР±С…РѕРґРёРјРѕ РЅР°Р·РЅР°С‡РёС‚СЊ Р·Р°РїСѓСЃРє РёРјРїРѕСЂС‚Р° СЃС‚Р°С‚РёСЃС‚РёРєРё РЅР° Crone: Р° РёРјРµРЅРЅРѕ РЅР°СЃС‚СЂРѕРёС‚СЊ РЅР° СЃРµСЂРІРµСЂРµ Р·Р°РїСѓСЃРє С„Р°Р№Р»Р° /bitrix/modules/statga/import.php СЂР°Р· РІ СЃСѓС‚РєРё';
+$MESS['STATGA_DESCR']    = 'Внимание! Чтобы импорт статистики не влиял на скорость сайта, необходимо назначить запуск импорта статистики на Crone: а именно настроить на сервере запуск файла /bitrix/modules/statga/import.php раз в сутки';

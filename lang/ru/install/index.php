@@ -1,4 +1,4 @@
 <?php
-$MESS['STATGA_MODULE_NAME']        = 'Ð¡Ñ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Google.Analitics';
-$MESS['STATGA_MODULE_DESCRIPTION'] = 'ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ¸ ÑÑ‡ÐµÑ‚Ñ‡Ð¸ÐºÐ° Google.Analytics';
-$MESS['STATGA_ERROR'] = 'ÐžÑˆÐ¸Ð±ÐºÐ° Ð¸Ð¼Ð¿Ð¾Ñ€Ñ‚Ð° ÑÑ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ¸ Google.Analytics';
+$MESS['STATGA_MODULE_NAME']        = 'Ñòàòèñòèêà Google.Analitics';
+$MESS['STATGA_MODULE_DESCRIPTION'] = 'Îòîáðàæåíèå ñòàòèñòèêè ñ÷åò÷èêà Google.Analytics';
+$MESS['STATGA_ERROR'] = 'Îøèáêà èìïîðòà ñòàòèñòèêè Google.Analytics';

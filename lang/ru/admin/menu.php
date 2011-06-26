@@ -1,3 +1,3 @@
 <?php
-$MESS['STATGA_MENU_MAIN'] = 'Ð¡Ñ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Google.Analitics';
-$MESS['STATGA_MENU_MAIN_TITLE'] = 'Ð¡Ñ‚Ð°Ñ‚Ð¸ÑÑ‚Ð¸ÐºÐ° Google.Analitics';
+$MESS['STATGA_MENU_MAIN'] = 'Ñòàòèñòèêà Google.Analitics';
+$MESS['STATGA_MENU_MAIN_TITLE'] = 'Ñòàòèñòèêà Google.Analitics';
