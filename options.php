@@ -1,11 +1,4 @@
 <?php
-/**
- * Module settings.
- */
-
-/*
- * Include some standard language constants.
- */
 IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/main/options.php");
 IncludeModuleLangFile(__FILE__);
 
@@ -45,14 +38,14 @@ $tabControl->Begin();
 
 ?>
 <form
-    name="mailTransportSettingsForm"
+    name="statgaSettingsForm"
     method="post"
     action="<?php echo $GLOBALS['APPLICATION']->GetCurPage() ?>?mid=<?php echo urlencode($mid) ?>&amp;lang=<?php echo LANGUAGE_ID ?>">
 <?php $tabControl->BeginNextTab() ?>
-        <tr class="heading">
-            <td colspan="2"><?php echo GetMessage('STATGA_OPTIONS_CONNECTION_SECTION') ?></td>
-        </tr>
 
+        <tr>
+            <td colspan="2"><?php echo GetMessage('STATGA_DESCR') ?></td>
+        </tr>
         <tr class="heading">
             <td colspan="2"><?php echo GetMessage('STATGA_OPTIONS_AUTHENTICATION_SECTION') ?></td>
         </tr>
@@ -76,15 +69,17 @@ $tabControl->Begin();
             </td>
         </tr>
         <tr>
-            <td width="50%"><?php echo GetMessage('STATGA_OPTIONS_USERNAME') ?>:</td>
-            <td width="50%">
+            <td width="50%" valign="top"><?php echo GetMessage('STATGA_ANALYTICS_ID') ?>:</td>
+            <td width="50%" valign="top">
                 <input
                     type="text"
                     size="30"
                     value="<?php echo COption::GetOptionString('statga', 'ga_id') ?>"
-                    name="settings[ga_id]" />
+                    name="settings[ga_id]" /><br/>
+                <span ><?php echo GetMessage('STATGA_ANALYTICS_ID_DESCR') ?></span>
             </td>
         </tr>
+
 
 <?php $tabControl->Buttons() ?>
     <input

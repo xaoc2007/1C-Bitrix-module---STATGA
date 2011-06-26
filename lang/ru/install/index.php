@@ -1,9 +1,4 @@
 <?php
-/**
- * Install strings.
- */
-
-$MESS['STATGA_MODULE_NAME']        = 'Google.Analitics';
-$MESS['STATGA_MODULE_DESCRIPTION'] = 'Отправка почты через сторонный SMTP-сервер.';
-
-$MESS['STATGA_ERROR'] = 'Ошибка отправки почты';
+$MESS['STATGA_MODULE_NAME']        = 'Статистика Google.Analitics';
+$MESS['STATGA_MODULE_DESCRIPTION'] = 'Отображение статистики счетчика Google.Analytics';
+$MESS['STATGA_ERROR'] = 'Ошибка импорта статистики Google.Analytics';
